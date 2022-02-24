@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7932805927BAA0E20065903E /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932805827BAA0E20065903E /* MealView.swift */; };
+		794FCF2127B8D63A00B54C93 /* SchoolMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FCF2027B8D63A00B54C93 /* SchoolMealApp.swift */; };
+		794FCF2327B8D63A00B54C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FCF2227B8D63A00B54C93 /* ContentView.swift */; };
+		794FCF2527B8D63B00B54C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794FCF2427B8D63B00B54C93 /* Assets.xcassets */; };
+		794FCF2827B8D63B00B54C93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794FCF2727B8D63B00B54C93 /* Preview Assets.xcassets */; };
+		794FCF3227B8D63B00B54C93 /* SchoolMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FCF3127B8D63B00B54C93 /* SchoolMealTests.swift */; };
+		794FCF3C27B8D63B00B54C93 /* SchoolMealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FCF3B27B8D63B00B54C93 /* SchoolMealUITests.swift */; };
+		794FCF3E27B8D63B00B54C93 /* SchoolMealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FCF3D27B8D63B00B54C93 /* SchoolMealUITestsLaunchTests.swift */; };
+		799AF6F427C0995B00C5BD64 /* schoolData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 799AF6F327C0995B00C5BD64 /* schoolData.csv */; };
+		799AF6F627C0999A00C5BD64 /* SchoolData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799AF6F527C0999A00C5BD64 /* SchoolData.swift */; };
+		799AF6F827C0A25E00C5BD64 /* SchoolSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799AF6F727C0A25E00C5BD64 /* SchoolSelect.swift */; };
+		79A57DC327B8E33E008C1B88 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 79A57DC227B8E33E008C1B88 /* Alamofire */; };
+		79A57DC527B8E3B6008C1B88 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A57DC427B8E3B6008C1B88 /* MealData.swift */; };
+		79D9CDEB27C1EBA8007B9C35 /* SchoolRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D9CDEA27C1EBA8007B9C35 /* SchoolRow.swift */; };
+		79D9CDED27C1EFE4007B9C35 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D9CDEC27C1EFE4007B9C35 /* Search.swift */; };
+		79F980DC27BFF5C500F0D441 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F980DB27BFF5C500F0D441 /* SettingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794FCF2E27B8D63B00B54C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794FCF1527B8D63A00B54C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794FCF1C27B8D63A00B54C93;
+			remoteInfo = SchoolMeal;
+		};
+		794FCF3827B8D63B00B54C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794FCF1527B8D63A00B54C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794FCF1C27B8D63A00B54C93;
+			remoteInfo = SchoolMeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7932805827BAA0E20065903E /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		794FCF1D27B8D63A00B54C93 /* SchoolMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794FCF2027B8D63A00B54C93 /* SchoolMealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealApp.swift; sourceTree = "<group>"; };
+		794FCF2227B8D63A00B54C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		794FCF2427B8D63B00B54C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794FCF2727B8D63B00B54C93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		794FCF2D27B8D63B00B54C93 /* SchoolMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794FCF3127B8D63B00B54C93 /* SchoolMealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealTests.swift; sourceTree = "<group>"; };
+		794FCF3727B8D63B00B54C93 /* SchoolMealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolMealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		794FCF3B27B8D63B00B54C93 /* SchoolMealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealUITests.swift; sourceTree = "<group>"; };
+		794FCF3D27B8D63B00B54C93 /* SchoolMealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		799AF6F327C0995B00C5BD64 /* schoolData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schoolData.csv; sourceTree = "<group>"; };
+		799AF6F527C0999A00C5BD64 /* SchoolData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolData.swift; sourceTree = "<group>"; };
+		799AF6F727C0A25E00C5BD64 /* SchoolSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSelect.swift; sourceTree = "<group>"; };
+		79A57DC427B8E3B6008C1B88 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		79C0249C27C7CCEB00A20E97 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		79C0249D27C7CE9000A20E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79D9CDEA27C1EBA8007B9C35 /* SchoolRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolRow.swift; sourceTree = "<group>"; };
+		79D9CDEC27C1EFE4007B9C35 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		79F980DB27BFF5C500F0D441 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794FCF1A27B8D63A00B54C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A57DC327B8E33E008C1B88 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF2A27B8D63B00B54C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF3427B8D63B00B54C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794FCF1427B8D63A00B54C93 = {
+			isa = PBXGroup;
+			children = (
+				79C0249C27C7CCEB00A20E97 /* Secrets.xcconfig */,
+				794FCF1F27B8D63A00B54C93 /* SchoolMeal */,
+				794FCF3027B8D63B00B54C93 /* SchoolMealTests */,
+				794FCF3A27B8D63B00B54C93 /* SchoolMealUITests */,
+				794FCF1E27B8D63A00B54C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794FCF1E27B8D63A00B54C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794FCF1D27B8D63A00B54C93 /* SchoolMeal.app */,
+				794FCF2D27B8D63B00B54C93 /* SchoolMealTests.xctest */,
+				794FCF3727B8D63B00B54C93 /* SchoolMealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794FCF1F27B8D63A00B54C93 /* SchoolMeal */ = {
+			isa = PBXGroup;
+			children = (
+				79C0249D27C7CE9000A20E97 /* Info.plist */,
+				79D9CDE927C1E9D2007B9C35 /* Resource */,
+				79D9CDE727C1E965007B9C35 /* Model */,
+				79D9CDE627C1E95D007B9C35 /* View */,
+				794FCF2027B8D63A00B54C93 /* SchoolMealApp.swift */,
+				794FCF2427B8D63B00B54C93 /* Assets.xcassets */,
+				794FCF2627B8D63B00B54C93 /* Preview Content */,
+			);
+			path = SchoolMeal;
+			sourceTree = "<group>";
+		};
+		794FCF2627B8D63B00B54C93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				794FCF2727B8D63B00B54C93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		794FCF3027B8D63B00B54C93 /* SchoolMealTests */ = {
+			isa = PBXGroup;
+			children = (
+				794FCF3127B8D63B00B54C93 /* SchoolMealTests.swift */,
+			);
+			path = SchoolMealTests;
+			sourceTree = "<group>";
+		};
+		794FCF3A27B8D63B00B54C93 /* SchoolMealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794FCF3B27B8D63B00B54C93 /* SchoolMealUITests.swift */,
+				794FCF3D27B8D63B00B54C93 /* SchoolMealUITestsLaunchTests.swift */,
+			);
+			path = SchoolMealUITests;
+			sourceTree = "<group>";
+		};
+		79D9CDE627C1E95D007B9C35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				794FCF2227B8D63A00B54C93 /* ContentView.swift */,
+				7932805827BAA0E20065903E /* MealView.swift */,
+				79F980DB27BFF5C500F0D441 /* SettingView.swift */,
+				799AF6F727C0A25E00C5BD64 /* SchoolSelect.swift */,
+				79D9CDEA27C1EBA8007B9C35 /* SchoolRow.swift */,
+				79D9CDEC27C1EFE4007B9C35 /* Search.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79D9CDE727C1E965007B9C35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79A57DC427B8E3B6008C1B88 /* MealData.swift */,
+				799AF6F527C0999A00C5BD64 /* SchoolData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79D9CDE927C1E9D2007B9C35 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				799AF6F327C0995B00C5BD64 /* schoolData.csv */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794FCF1C27B8D63A00B54C93 /* SchoolMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794FCF4127B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMeal" */;
+			buildPhases = (
+				794FCF1927B8D63A00B54C93 /* Sources */,
+				794FCF1A27B8D63A00B54C93 /* Frameworks */,
+				794FCF1B27B8D63A00B54C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolMeal;
+			packageProductDependencies = (
+				79A57DC227B8E33E008C1B88 /* Alamofire */,
+			);
+			productName = SchoolMeal;
+			productReference = 794FCF1D27B8D63A00B54C93 /* SchoolMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794FCF2C27B8D63B00B54C93 /* SchoolMealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794FCF4427B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMealTests" */;
+			buildPhases = (
+				794FCF2927B8D63B00B54C93 /* Sources */,
+				794FCF2A27B8D63B00B54C93 /* Frameworks */,
+				794FCF2B27B8D63B00B54C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794FCF2F27B8D63B00B54C93 /* PBXTargetDependency */,
+			);
+			name = SchoolMealTests;
+			productName = SchoolMealTests;
+			productReference = 794FCF2D27B8D63B00B54C93 /* SchoolMealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		794FCF3627B8D63B00B54C93 /* SchoolMealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794FCF4727B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMealUITests" */;
+			buildPhases = (
+				794FCF3327B8D63B00B54C93 /* Sources */,
+				794FCF3427B8D63B00B54C93 /* Frameworks */,
+				794FCF3527B8D63B00B54C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794FCF3927B8D63B00B54C93 /* PBXTargetDependency */,
+			);
+			name = SchoolMealUITests;
+			productName = SchoolMealUITests;
+			productReference = 794FCF3727B8D63B00B54C93 /* SchoolMealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794FCF1527B8D63A00B54C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					794FCF1C27B8D63A00B54C93 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					794FCF2C27B8D63B00B54C93 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 794FCF1C27B8D63A00B54C93;
+					};
+					794FCF3627B8D63B00B54C93 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 794FCF1C27B8D63A00B54C93;
+					};
+				};
+			};
+			buildConfigurationList = 794FCF1827B8D63A00B54C93 /* Build configuration list for PBXProject "SchoolMeal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794FCF1427B8D63A00B54C93;
+			packageReferences = (
+				79A57DC127B8E33E008C1B88 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 794FCF1E27B8D63A00B54C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794FCF1C27B8D63A00B54C93 /* SchoolMeal */,
+				794FCF2C27B8D63B00B54C93 /* SchoolMealTests */,
+				794FCF3627B8D63B00B54C93 /* SchoolMealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794FCF1B27B8D63A00B54C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799AF6F427C0995B00C5BD64 /* schoolData.csv in Resources */,
+				794FCF2827B8D63B00B54C93 /* Preview Assets.xcassets in Resources */,
+				794FCF2527B8D63B00B54C93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF2B27B8D63B00B54C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF3527B8D63B00B54C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794FCF1927B8D63A00B54C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9CDED27C1EFE4007B9C35 /* Search.swift in Sources */,
+				79A57DC527B8E3B6008C1B88 /* MealData.swift in Sources */,
+				79F980DC27BFF5C500F0D441 /* SettingView.swift in Sources */,
+				79D9CDEB27C1EBA8007B9C35 /* SchoolRow.swift in Sources */,
+				794FCF2327B8D63A00B54C93 /* ContentView.swift in Sources */,
+				799AF6F627C0999A00C5BD64 /* SchoolData.swift in Sources */,
+				794FCF2127B8D63A00B54C93 /* SchoolMealApp.swift in Sources */,
+				799AF6F827C0A25E00C5BD64 /* SchoolSelect.swift in Sources */,
+				7932805927BAA0E20065903E /* MealView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF2927B8D63B00B54C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794FCF3227B8D63B00B54C93 /* SchoolMealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794FCF3327B8D63B00B54C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794FCF3C27B8D63B00B54C93 /* SchoolMealUITests.swift in Sources */,
+				794FCF3E27B8D63B00B54C93 /* SchoolMealUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794FCF2F27B8D63B00B54C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794FCF1C27B8D63A00B54C93 /* SchoolMeal */;
+			targetProxy = 794FCF2E27B8D63B00B54C93 /* PBXContainerItemProxy */;
+		};
+		794FCF3927B8D63B00B54C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794FCF1C27B8D63A00B54C93 /* SchoolMeal */;
+			targetProxy = 794FCF3827B8D63B00B54C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		794FCF3F27B8D63B00B54C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794FCF4027B8D63B00B54C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794FCF4227B8D63B00B54C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C0249C27C7CCEB00A20E97 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolMeal/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T7AS2QDQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SchoolMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794FCF4327B8D63B00B54C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C0249C27C7CCEB00A20E97 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolMeal/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T7AS2QDQ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SchoolMeal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		794FCF4527B8D63B00B54C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolMeal.app/SchoolMeal";
+			};
+			name = Debug;
+		};
+		794FCF4627B8D63B00B54C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolMeal.app/SchoolMeal";
+			};
+			name = Release;
+		};
+		794FCF4827B8D63B00B54C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolMeal;
+			};
+			name = Debug;
+		};
+		794FCF4927B8D63B00B54C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.jedeop.SchoolMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolMeal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794FCF1827B8D63A00B54C93 /* Build configuration list for PBXProject "SchoolMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794FCF3F27B8D63B00B54C93 /* Debug */,
+				794FCF4027B8D63B00B54C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794FCF4127B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794FCF4227B8D63B00B54C93 /* Debug */,
+				794FCF4327B8D63B00B54C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794FCF4427B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794FCF4527B8D63B00B54C93 /* Debug */,
+				794FCF4627B8D63B00B54C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794FCF4727B8D63B00B54C93 /* Build configuration list for PBXNativeTarget "SchoolMealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794FCF4827B8D63B00B54C93 /* Debug */,
+				794FCF4927B8D63B00B54C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79A57DC127B8E33E008C1B88 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79A57DC227B8E33E008C1B88 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79A57DC127B8E33E008C1B88 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 794FCF1527B8D63A00B54C93 /* Project object */;
+}
